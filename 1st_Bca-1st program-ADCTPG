@@ -1,9 +1,5 @@
-c=int(input("enter student id :"))
-b=input("enter student name :")
-s1=int(input("enter maths marks"))
-s2=int(input("enter physics marks"))
-s3=int(input(" enter  science :"))
-t=s1+s2+s3
-a=t/3
-print("id :{0}\nname :{1}\ntotal marks :{2}".format(c,b,t))
-print("average marks :{3}",a)
+a=int(input("enter a num"))
+if a%2==0:
+    print("even")
+else:
+    print("odd")
