@@ -1,8 +1,5 @@
-a=int(input("enter a num :"))
-b=int(input("enter a num :"))
-print("a={0}\tb={1}".format(a,b))
-a=a+b
-b=a-b
-a=a-b
-peint("after swapping")
-print("a={0}\tb={1}".format(a,b))
+a=int(input("enter a num"))
+if a>0:
+    print("+ve")
+else:
+    print("-ve")
